@@ -36,3 +36,75 @@
     transform: rotate(360deg);
   }
 }
+
+.Timer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+span{		
+  position: absolute;
+  bottom: 50%;
+  text-align: center;	
+  font-size: 35px;
+  color: #fff;
+  background: #2ecc71;
+  border-radius: 50%;
+  padding: 40px;
+
+}
+
+footer{
+  position: absolute;
+  bottom: 10%;
+	font-size: 80px;
+	font-family: fantasy;
+	color: black;
+}
+
+span {
+  height: 50px;
+  width: 50px;
+  margin: 0 auto;
+  background-color: red;
+  animation-name: stretch;
+  animation-duration: 1.5s; 
+  animation-timing-function: ease-out; 
+  animation-delay: 0;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-fill-mode: none;
+  animation-play-state: running;
+}
+
+@keyframes stretch {
+  0% {
+    transform: scale(.3);
+    background-color: #877CB0;
+    border-radius: 100%;
+  }
+  50% {
+    background-color: #241858;
+  }
+  100% {
+    transform: scale(1.5);
+    background-color: #11073B;
+  }
+}
+
+header{
+	font-family: fantasy;
+	font-size: 80px;
+	color: black;
+}
+
+body {
+  color: white;
+background-color:#66a3ff;
+ 
+background-image: repeating-linear-gradient(transparent, transparent 50px, purple 50px, purple 53px, transparent 53px, transparent 63px, purple 63px, purple 66px, transparent 66px, transparent 116px, rgba(0,0,0,.5) 116px, rgba(0,0,0,.5) 166px, rgba(255,255,255,.2) 166px, rgba(255,255,255,.2) 169px, rgba(0,0,0,.5) 169px, rgba(0,0,0,.5) 179px, rgba(255,255,255,.2) 179px, rgba(255,255,255,.2) 182px, rgba(0,0,0,.5) 182px, rgba(0,0,0,.5) 232px, transparent 232px),  
+  repeating-linear-gradient(270deg, transparent, transparent 50px, purple 50px, purple 53px, transparent 53px, transparent 63px, purple 63px, purple 66px, transparent 66px, transparent 116px, rgba(0,0,0,.5) 116px, rgba(0,0,0,.5) 166px, rgba(255,255,255,.2) 166px, rgba(255,255,255,.2) 169px, rgba(0,0,0,.5) 169px, rgba(0,0,0,.5) 179px, rgba(255,255,255,.2) 179px, rgba(255,255,255,.2) 182px, rgba(0,0,0,.5) 182px, rgba(0,0,0,.5) 232px, transparent 232px);
+
+}
