@@ -51,8 +51,8 @@ span{
   font-size: 35px;
   color: #fff;
   background: #2ecc71;
-  border-radius: 50%;
-  padding: 40px;
+  border-radius: 100%;
+  padding: 20px 20px 20px 20px;
 
 }
 
@@ -95,6 +95,7 @@ span {
 }
 
 header{
+	
 	font-family: fantasy;
 	font-size: 80px;
 	color: black;
