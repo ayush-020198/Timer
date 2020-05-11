@@ -19,7 +19,6 @@ class Timer extends React.Component {
   }
 
   render() {
-    //It makes converts the timer to seconds through algorithm
     var time = Math.round(this.state.clock / 1000);
     return (
       <div className="Timer">
