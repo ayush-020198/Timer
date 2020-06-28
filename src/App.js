@@ -32,13 +32,12 @@ const particleOptions = {
   "sync": false
   }
   },
-  
   },
   "interactivity": {
   "detect_on": "canvas",
   "events": {
   "onhover": {
-  "enable": true,
+  "enable": false,
   "mode": "repulse"
   },
   "resize": true
