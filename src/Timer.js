@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
+import './App.css';
 
-class Timer extends React.Component {
+class Timer extends Component {
   componentDidMount() {
     this.timer = setInterval(this.ticktock, 1000);
   }
@@ -22,10 +23,10 @@ class Timer extends React.Component {
     var time = Math.round(this.state.clock / 1000);
     return (
       <div className="Timer">
-        <header>You wasted your</header>
+        <h1 className="upper">You wasted your</h1>
         <span>{time}</span>
         <br />
-        <footer>Seconds</footer>
+        <h1 className="lower">Seconds</h1>
       </div>
     );
   }

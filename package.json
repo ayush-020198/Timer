@@ -1,5 +1,5 @@
 {
-  "homepage": "http://ayush-020198.github.io/Timer",	
+  "homepage": "http://ayush-020198.github.io/Timer",
   "name": "timer",
   "version": "0.1.0",
   "private": true,
@@ -9,11 +9,12 @@
     "@testing-library/user-event": "^7.2.1",
     "react": "^16.13.0",
     "react-dom": "^16.13.0",
+    "react-particles-js": "^3.2.1",
     "react-scripts": "3.4.0"
   },
   "scripts": {
-  	"predeploy": "npm run build",
-  	"deploy": "gh-pages -d build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
